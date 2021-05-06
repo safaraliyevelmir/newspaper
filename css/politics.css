@@ -1,0 +1,300 @@
+/* Main Start*/
+
+
+
+.politcs-content{
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 3rem 0rem 0rem 0rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    
+}
+
+.content-second{
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 3rem 0rem 0rem 0rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.content-second .f-stories{
+    margin-bottom: 3rem;
+}
+
+
+.content-pol{
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 3rem 0rem 0rem 0rem;
+}
+
+/* Main End */
+
+/* Politics Header Start */
+
+.politics-header{
+    border-bottom: 4px double lightgray;
+    padding: 0rem 0rem 1rem 0rem;
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.politics-header h1{
+    margin: 0;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+
+.politics-header ul{
+    float: right;
+    padding-top: 1.5rem;
+}
+
+.politics-header ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.688rem;
+    padding: 0rem 1rem;
+}
+
+.politics-header ul li:not(:first-child){
+    border-left: 1px solid lightgray;
+}
+
+/* Politics Header End */
+
+/* Main News*/
+
+.politcs-content .main-news .img{
+    width: 420px;
+    height: 310px;
+    overflow: hidden;
+}
+
+.politcs-content .main-news .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.politcs-content .main-news .news-info{
+    padding: 1rem 0rem;
+}
+
+.politcs-content .main-news .news-info ul li{
+    float: left;
+    padding-right: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.688rem;
+}
+
+.politcs-content .main-news .news-info ul li:first-child{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.politcs-content .main-news .news-info ul li:not(:first-child){
+    border-left: 1px solid lightgray;
+    padding-left: 0.5rem;
+}
+
+.politcs-content .main-news .news-info ul li span:first-child{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.politcs-content .main-news h1{
+    margin: 10px 0 0 0;
+    font-size: 1.625rem;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.politcs-content .main-news h1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.politcs-content .main-news h1 a:hover{
+    text-decoration: underline;
+}
+
+.politcs-content .main-news p{
+    margin: 10px 0 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.politcs-content .main-news a.read-more{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 0.688rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+.politcs-content .main-news a.read-more:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* Main News End */
+
+/* Right News Start */
+
+.politcs-content .right-news{
+    margin-left: 17px;
+    border-bottom: 2px solid black;
+}
+
+.politcs-content .right-news .news{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 25px;
+}
+
+.politcs-content .right-news .news:not(:first-child){
+    padding-top: 25px;
+}
+
+.politcs-content .right-news  .news .news-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.9);
+    font-size: 0.688rem;
+}
+
+.politcs-content .right-news  .news .news-info span{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.politcs-content .right-news .news h1{
+    margin: 5px 0 5px 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.politcs-content .right-news .news h1 a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    transform: text-decoration 3s;
+}
+
+.politcs-content .right-news .news h1 a:hover{
+    text-decoration: underline;
+    
+}
+
+.politcs-content .right-news .news p{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    line-height: 22px;
+}
+
+/* Right News End */
+
+/* Reputation Start */
+
+.politcs-content .right-side{
+    margin-left: 30px;
+}
+
+.politcs-content .reputation .header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 0.813rem;
+}
+
+.politcs-content .reputation .repuatation-bars{
+    margin-top: 25px;
+}
+
+.politcs-content .reputation .repuatation-bars .bar{
+    margin-top: 15px;
+}
+
+.politcs-content .reputation .repuatation-bars .bar .bar-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 0.625rem;
+}
+
+
+.politcs-content .reputation .repuatation-bars .bar .bar-body{
+    margin-top: 10px;
+    height: 3px;
+    width: 170px;
+    background-color: #d4d4d4;
+}
+
+.politcs-content .reputation .repuatation-bars .bar .bar-body .per{
+    height: 100%;
+    background-color: black;
+    height: 100%;
+    transition: 2s linear;
+    position: relative;
+    width: 0;
+}
+
+.politcs-content .reputation .repuatation-bars .bar .bar-body .per::before{
+    content: attr(per);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.625rem;
+    top: -12px;
+    right: 0;
+    color: black;
+    transform: translateX(50%);
+}
+
+/* Reputatiton End */
+
+/* Opinion Start */
+
+.politcs-content .opinion{
+    margin-top: 30px;
+}
+
+.politcs-content .opinion .opinion-header{
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.813rem;
+    
+}
+
+.politcs-content .opinion ul li{
+    padding: 2px 0;
+}
+
+.politcs-content .opinion ul li a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1rem;
+}
+
+.politcs-content .opinion ul li a:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Opinion End */
+
+/* Footer Start */
+
+footer .footer-ending{
+    margin: 0rem 6rem 0rem 6rem;
+    border-top: 2px solid black;
+}
+
+/*Footer End */

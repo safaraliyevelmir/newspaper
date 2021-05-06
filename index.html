@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Search Screen Start-->
+    <div class="search-screen">
+        <div class="exit">
+            <i class="fas fa-times"></i>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Enter Keywords">
+        </form>
+    </div>
+    <!-- Search Screnn End-->
+
+    <!-- Main Div Start -->
+    <div class="main">
+
+        <!-- Top Navbar Start -->
+        <nav>
+            <div class="header-top">
+                <div class="content">
+                    <div class="date">Monday, September 25, 2017</div>
+                    <div class="menu">
+                        <ul>
+                            <li class="active-menu">HOME</li>
+                            <li>POLITICS</li>
+                            <li>THE OPINION PAGES</li>
+                            <li>CONTACTS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Top Navbar End -->
+
+        <!-- Header Start-->
+        <header>
+            <!-- Header Logo Start -->
+            <div class="header-brand">
+                <div class="content">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </div>
+            <!-- Header Logo End -->
+
+            <!-- Header Menu Start -->
+            <div class="header-menu">
+                <div class="content">
+                    <ul>
+                        <li> <a class="active-menu" href="index.html">HOME</a> </li>
+                        <li> <a href="politics.html">POLITICS</a> </li>
+                        <li> <a href="technology.html">TECHNOLOGY</a> </li>
+                        <li> <a href="sport.html">SPORTS</a> </li>
+                        <li> <a href="">FASHION</a> </li>
+                        <li> <a href="">FOOD</a> </li>
+                        <li> <a href="">CONTACTS</a> </li>
+                        <li> <i class="fas fa-search"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Header Menu End -->
+        </header>
+        <!-- Header End-->
+
+        <!-- Main Start -->
+        <main>
+            <!-- Content Start-->
+            <div class="content">
+
+                <!-- Content Left Start -->
+                <div class="inner-left">
+
+                    <!-- Latest Article Start-->
+                    <div class="latest-article">
+                        <div class="latest-article-header">LATEST ARTICLE</div>
+                        <div class="latest-article-inner">
+                            <ul>
+                                <li>The Ultimate Guide to New York’s Favorite Food</li>
+                                <li>Salty Peanut-Pretzel Ice Cream Cake</li>
+                                <li>A Cool Solution for Hot Summer Nights</li>
+                                <li>Full Irish Breakfast In Manhattan</li>
+                                <li>Overcoming Your Fear Of The Kitchen</li>
+                                <li>Want to Make Creamed Corn Into a Meal? Add Shrimp</li>
+                                <li>Why Healthy Eating Doesn’t Mean Dieting</li>
+                                <li>A Quick, Satisfying Fix for Weeknight Chicken</li>
+                                <li>Fresh Food on TV: Weekend Edition</li>
+                                <li>When to Cook Your Vegetables Long Past ‘Done’</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Latest Article End-->
+
+                    <!--Recomended Start-->
+                    <div class="recommended">
+                        <div class="recommended-controller">
+                            <span>RECOMMENDED</span>
+                            <div class="control">
+                                <i class="fas fa-chevron-left" onclick="plusSlides(-1)"></i>
+                                |
+                                <i class="fas fa-chevron-right" onclick="plusSlides(1)"></i>
+                            </div>
+                        </div>
+                        <div class="recommended-slider">
+                            <div class="recommended-slider-content">
+                                <div class="slider-item">
+                                    <div class="slider-img">
+                                        <img src="img/recomended.jpg" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <a href="">Escape Myst: Into a World of Mystery and Adventure</a>
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="slider-img">
+                                        <img src="img/recomended2.jpg" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <a href="">Escape Myst: Into a World of Mystery and Adventure</a>
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="slider-img">
+                                        <img src="img/recomended3.jpg" alt="">
+                                    </div>
+                                    <div class="slider-content">
+                                        <a href="">Escape Myst: Into a World of Mystery and Adventure</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Recomended End-->
+
+                    <!-- Advertisement Start -->
+                    <div class="advertisement">
+                        <div class="adv-content">
+                            <div class="advertisement-header">ADVERTISING</div>
+                            <div class="advertisement-inner">
+                                <img src="img/1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Advertisement End -->
+
+                    <!--Top Search Start-->
+                    <div class="top-search">
+                        <div class="top-search_content">
+                            <div class="top-search-header">TOP SEARCHES</div>
+                            <div class="top-search-inner">
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                                <a href="">Art & Design</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Search End -->
+
+                </div>
+                <!-- Content Left End -->
+
+                <!-- Content Center Start -->
+                <div class="inner-center">
+                    <div class="content-news">
+                        <div class="main-news">
+                            <div class="breaking-news-header">
+                                <h1>Breaking News</h1>
+                            </div>
+                            <div class="news-img">
+                                <img src="img/blog-7-860x654.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <ul>
+                                    <li class="li-border">MAY 13, 2017</li>
+                                    <li class="li-border pl-2">LIFESTYLE MAIN</li>
+                                    <li class="li-border pl-2"><span>BY</span> CMSMASTERS</li>
+                                    <li class="pl-2">
+                                        <i class="fas fa-comment"></i>
+                                        <span class="pl-1">1</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="news-content">
+                                <h1>Get the Best Catering for Your Summer Wedding in Philly</h1>
+                                <p>Etiam eu molestie eros, commodo nec turpis hendrerit sapien. Maecenas tempus leo ac
+                                    nisi iaculis porta. Sed sapien tempus.</p>
+                                <a href="">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="one-news">
+                                <div class="news-info">
+                                    <ul>
+                                        <li class="li-border">MAY 13, 2017</li>
+                                        <li class="li-border pl-2">LIFESTYLE MAIN</li>
+                                        <li class="li-border pl-2"><span>BY</span> CMSMASTERS</li>
+                                        <li class="pl-2">
+                                            <i class="fas fa-comment"></i>
+                                            <span class="pl-1">1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-content">
+                                    <h1>Get the Best Catering for Your Summer Wedding in Philly</h1>
+                                    <p>Etiam eu molestie eros, commodo nec turpis hendrerit sapien. Maecenas tempus leo ac
+                                        nisi iaculis porta. Sed sapien tempus.</p>
+                                    <a href="">READ MORE</a>
+                                </div>
+                            </div>
+                            <div class="one-news">
+                                <div class="news-info">
+                                    <ul>
+                                        <li class="li-border">MAY 13, 2017</li>
+                                        <li class="li-border pl-2">LIFESTYLE MAIN</li>
+                                        <li class="li-border pl-2"><span>BY</span> CMSMASTERS</li>
+                                        <li class="pl-2">
+                                            <i class="fas fa-comment"></i>
+                                            <span class="pl-1">1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-content">
+                                    <h1>Get the Best Catering for Your Summer Wedding in Philly</h1>
+                                    <p>Etiam eu molestie eros, commodo nec turpis hendrerit sapien. Maecenas tempus leo ac
+                                        nisi iaculis porta. Sed sapien tempus.</p>
+                                    <a href="">READ MORE</a>
+                                </div>
+                            </div>
+                            <div class="one-news">
+                                <div class="news-info">
+                                    <ul>
+                                        <li class="li-border">MAY 13, 2017</li>
+                                        <li class="li-border pl-2">LIFESTYLE MAIN</li>
+                                        <li class="li-border pl-2"><span>BY</span> CMSMASTERS</li>
+                                        <li class="pl-2">
+                                            <i class="fas fa-comment"></i>
+                                            <span class="pl-1">1</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="news-content">
+                                    <h1>Get the Best Catering for Your Summer Wedding in Philly</h1>
+                                    <p>Etiam eu molestie eros, commodo nec turpis hendrerit sapien. Maecenas tempus leo ac
+                                        nisi iaculis porta. Sed sapien tempus.</p>
+                                    <a href="">READ MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Center End -->
+
+                <!-- Content Right Start -->
+                <div class="inner-right">
+                    <div class="content-news">
+                        <div class="daily-feed-header">
+                            <h1>Daily Feed</h1>
+                        </div>
+                        <div class="daily-feed-inner">
+                            <div class="daily-feed-inner-carousel">
+                                <div class="card card-1">
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                </div>
+                                <div class="card card-2">
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>Salam</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                    <div class="news">
+                                        <div class="catagory"><span>IN</span> <span>SCIENCE</span></div>
+                                        <h4>Which New York City Subway MetroCard to Buy?</h4>
+                                        <p>Duis eleifend nunc sit amet mi dapibus ornare. Suspendisse non tempus vel
+                                            libero sem pellentesque ornare amet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Right End -->
+
+                <!-- Featured Stories Start-->
+                <div class="f-stories">
+                    <div class="f-stories-header">Featured Stories</div>
+                    <div class="f-stories-inner">
+                        <div class="news">
+                            <div class="news-img">
+                                <img src="img/news1.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <span>MAY 11, 2017</span>
+                                <span>HEALTH</span>
+                            </div>
+                            <h1><a href="">The Most Fascinating Show? The Met Trying to Fix Itself</a></h1>
+                            <p>Etiam eu molestie eros, commodo hendrerit sapien. Nunc pretium tortor felis, eget cursus magna egetnec imperdiet ornare.</p>
+                        </div>
+                        <div class="news">
+                            <div class="news-img">
+                                <img src="img/news2.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <span>MAY 11, 2017</span>
+                                <span>HEALTH</span>
+                            </div>
+                            <h1><a href="">The Most Fascinating Show? The Met Trying to Fix Itself</a></h1>
+                            <p>Etiam eu molestie eros, commodo hendrerit sapien. Nunc pretium tortor felis, eget cursus magna egetnec imperdiet ornare.</p>
+                        </div>
+                        <div class="news">
+                            <div class="news-img">
+                                <img src="img/news3.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <span>MAY 11, 2017</span>
+                                <span>HEALTH</span>
+                            </div>
+                            <h1><a href="">The Most Fascinating Show? The Met Trying to Fix Itself</a></h1>
+                            <p>Etiam eu molestie eros, commodo hendrerit sapien. Nunc pretium tortor felis, eget cursus magna egetnec imperdiet ornare.</p>
+                        </div>
+                        <div class="news">
+                            <div class="news-img">
+                                <img src="img/news4.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <span>MAY 11, 2017</span>
+                                <span>HEALTH</span>
+                            </div>
+                            <h1><a href="">The Most Fascinating Show? The Met Trying to Fix Itself</a></h1>
+                            <p>Etiam eu molestie eros, commodo hendrerit sapien. Nunc pretium tortor felis, eget cursus magna egetnec imperdiet ornare.</p>
+                        </div>
+                        <div class="news">
+                            <div class="news-img">
+                                <img src="img/news5.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <span>MAY 11, 2017</span>
+                                <span>HEALTH</span>
+                            </div>
+                            <h1><a href="">The Most Fascinating Show? The Met Trying to Fix Itself</a></h1>
+                            <p>Etiam eu molestie eros, commodo hendrerit sapien. Nunc pretium tortor felis, eget cursus magna egetnec imperdiet ornare.</p>
+                        </div>
+                        <div class="news">
+                            <div class="news-img">
+                                <img src="img/news6.jpg" alt="">
+                            </div>
+                            <div class="news-info">
+                                <span>MAY 11, 2017</span>
+                                <span>HEALTH</span>
+                            </div>
+                            <h1><a href="">The Most Fascinating Show? The Met Trying to Fix Itself</a></h1>
+                            <p>Etiam eu molestie eros, commodo hendrerit sapien. Nunc pretium tortor felis, eget cursus magna egetnec imperdiet ornare.</p>
+                        </div>
+                    </div>
+                    <div class="more-post">
+                        <p><a href="">VIEW MORE POSTS</a></p>
+                    </div>
+                </div>
+                <!-- Featured Stories End-->
+
+                <!-- Sign Up Start -->
+                <div class="sign-up">
+                    <h1>Sign up for the Spotlight Newsletter:</h1>
+                    <div class="sign-up-content">
+                        <form action="">
+                            <input type="text" placeholder="Your email adress *">
+                            <button>SIGN UP</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Sign Up End -->
+
+            </div>
+            <!-- Content End -->
+
+        </main>
+        <!-- Main End -->
+
+        <!-- Footer Start -->
+        <footer>
+          <div class="content">
+            <div class="footer-content">
+                <img src="img/logo-bottom-sidebar.png" alt="">
+                <ul>
+                    <li>Reader Center</li>
+                    <li>Tools & Services</li>
+                    <li>Times Topics</li>
+                    <li>T.N. Events Guide</li>
+                    <li>Times Journeys</li>
+                    <li>Subscribe The Newspaper</li>
+                    <li>Our Contacts</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h4>NEWS</h4>
+                <ul>
+                    <li>Arts</li>
+                    <li>Economy</li>
+                    <li>Fashion & Style</li>
+                    <li>Food</li>
+                    <li>Health</li>
+                    <li>Lifestyle</li>
+                    <li>Politics</li>
+                    <li>Science</li>
+                    <li>Sports</li>
+                    <li>Technology</li>
+                    <li>Travel</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h4>OPINION</h4>
+                <ul>
+                    <li>Today’s Opinion</li>
+                    <li>Op-Ed Columnists</li>
+                    <li>Editorials</li>
+                    <li>Contributing Writers</li>
+                    <li>Op-Ed Contributors</li>
+                    <li>Opinionator</li>
+                    <li>Letters</li>
+                    <li>Sunday Review</li>
+                    <li>Taking Note</li>
+                    <li>Room for Debate</li>
+                    <li>Public Editor</li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h4>MOST POPULAR</h4>
+                <ul>
+                    <li>Art & Design</li>
+                    <li>World</li>
+                    <li>Blog</li>
+                    <li>Business</li>
+                    <li>Culture</li>
+                    <li>Lifestyle</li>
+                    <li>N.Y.</li>
+                    <li>Newspaper</li>
+                    <li>Photos</li>
+                    <li>Post</li>
+                </ul>
+            </div>
+          </div>
+          <div class="footer-ending">
+              <div class="social">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-linkedin-in"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-twitter"></i>
+              </div>
+              <div class="copyright">
+                  <h3>This is a sample website - Safaraliyev © 2021 / All Rights Reserved</h3>
+              </div>
+          </div>
+        </footer>
+        <!-- Footer End -->
+    </div>
+    <!-- Main Div End -->
+
+    <button onclick="topFunction()" class="top-btn" id="topbtn">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+</body>
+
+</html>
+
+<!-- JavaScript -->
+<script src="js/owlcarousel.js"></script>
+<script src="js/left-bar-slider.js"></script>
+<script src="js/topbtn.js"></script>
+<script src="js/search.js"></script>

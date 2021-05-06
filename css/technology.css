@@ -1,0 +1,116 @@
+/* Main Start*/
+
+main .content-technology {
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 1rem 0rem 0rem 0rem;
+    border-bottom: 6px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+main .content-technology .inner-right:first-child .content-news{
+    height: 627px;
+}
+
+.content-technology .inner-right:not(:first-child) .content-news{
+    padding: 2rem 0 0 1rem;
+}
+
+
+/* Main End*/
+
+/* Tech Header Start */
+
+.technology-header{
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 2rem 0rem 1rem 0rem;
+    border-bottom: 5px double lightgray;
+}
+
+.technology-header h1{
+    margin: 0;
+    padding-left: 1rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2.125rem;
+    display: inline-block;
+}
+
+.technology-header ul{
+    float: right;
+    padding-top: 20px;
+}
+
+.technology-header ul li{
+    float: left;
+    padding: 0 7px 0 7px;
+}
+
+.technology-header ul li:not(:first-child){
+    border-left: 1px solid lightgray;
+}
+
+.technology-header ul li a{
+    text-decoration: none;
+    font-size: 0.688rem;
+    font-weight: 400;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Tech Header End */
+
+/* F-Stories Start */
+
+.f-stories-content{
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.f-stories-content .f-stories .f-stories-inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.f-stories-content .f-stories .f-stories-inner .news{
+    width: 48%;
+}
+
+/* F-Stories End */
+
+
+/* Opinion Start */
+.content-technology .opinion{
+    margin-top: 30px;
+}
+
+.content-technology .opinion .opinion-header{
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.813rem;
+    
+}
+
+.content-technology .opinion ul li{
+    padding: 2px 0;
+}
+
+.content-technology .opinion ul li a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(0, 0, 0, 1);
+    font-size: 1rem;
+}
+
+.content-technology .opinion ul li a:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Opinion End */
