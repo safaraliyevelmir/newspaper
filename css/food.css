@@ -1,0 +1,161 @@
+.food-content {
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 3rem 0rem 3rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* Main News Start */
+
+.food-content .inner-left .main-news {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.food-content .inner-left .main-news .img{
+    width: 410px;
+    height: 310px;
+}
+
+.food-content .inner-left .main-news .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.food-content .inner-left .main-news ul{
+    padding: 1rem 0 0.5rem 0;
+}
+
+.food-content .inner-left .main-news ul li{
+    float: left;
+    padding-right: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.688rem;
+    color: black;
+}
+
+.food-content .inner-left .main-news ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.688rem;
+    color: black;
+}
+
+.food-content .inner-left .main-news ul li:first-child{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.food-content .inner-left .main-news ul li:not(:first-child){
+    padding-left: 0.5rem;
+    border-left: 1px solid lightgray;
+}
+
+.food-content .inner-left .main-news ul li a{
+    text-decoration: none;
+}
+
+.food-content .inner-left .main-news ul li a.cat{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.food-content .inner-left .main-news h1{
+    margin: 0;
+}
+
+.food-content .inner-left .main-news:first-child h1{
+    width: 75%;
+}
+
+.food-content .inner-left .main-news h1 a{
+    font-family: 'Playfair Display',serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.625rem;
+}
+
+.food-content .inner-left .main-news h1 a:hover{
+    text-decoration: underline;
+    transition: 1s;
+    
+}
+
+.food-content .inner-left .main-news p{
+    margin: 1rem 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 22px;
+}
+
+.food-content .inner-left .main-news a.read-more{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 00.688rem;
+    color: black;
+}
+
+.food-content .inner-left .main-news a.read-more:hover{
+    color: rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+}
+
+.food-content .inner-left .main-news:not(:first-child){
+    border-top: 1px solid lightgray;
+}
+
+/* Main News End */
+
+
+/* Sign Up Start */
+
+.inner-right .sign-up h1{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    margin: 0 3rem;
+    line-height: 30px;
+}
+
+/* Sign Up End*/
+
+
+/* Catagory Start */
+
+.catagory-food{
+    display: flex;
+    justify-content: center;
+}
+
+.catagory-food .cat-container {
+    width: 280px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catagory-food .cat-container .cat{
+    width: 126px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 0.688rem;
+}
+
+.catagory-food .cat-container .cat:hover{
+    color: white;
+    background-color: black;
+    transition: 0.7s;
+}
+
+/* Catagory End */
+
+/* Daily Feed Start */
+
+
+/* Daily Feed End */

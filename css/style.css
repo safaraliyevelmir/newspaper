@@ -31,6 +31,14 @@ ul{
     margin-right: auto;
 }
 
+h1{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
 ::selection{
     background-color: black;
     color: white;
