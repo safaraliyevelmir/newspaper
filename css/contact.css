@@ -1,0 +1,164 @@
+/* Main Start */
+
+.contact-inner{
+    margin: 0rem 6rem 0rem 6rem;
+    padding: 3rem 0rem 0 0rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom: 1px solid black;
+}
+
+.contact-info{
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.contact{
+    padding-right: 1rem;
+    border-right: 1px solid lightgray;
+}
+
+/* Contact Info Start */
+
+.contact-info h5{
+    margin: 1rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.813rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-info ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.contact-info ul li i{
+    padding-right: 6px;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* Contact Info End */
+
+/* Form Start */
+
+.contact-info form{
+    padding: 0 0 0 2rem;
+    margin: 1rem 0;
+}
+
+.contact-info form .form{
+    display: inline-block;
+}
+
+.contact-info form .form:first-child{
+    margin-right: 10px;
+}
+
+.contact-info form .form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.688rem;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 1rem 0;
+}
+
+.contact-info form .form input{
+    width: 220px;
+    display: block;
+    margin-top: 0.2rem;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    font-family: 'Playfair Display',serif;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+.contact-info form .form:nth-child(3) {
+    margin-top: 20px;
+}
+
+.contact-info form .form textarea{
+    display: block;
+    margin-top: 5px;
+    border-radius: 0px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    font-family: 'Playfair Display',serif;
+    font-size: 0.875rem;
+    font-style: italic;
+    max-width: 100%;
+    color: rgba(0, 0, 0, 0.8);
+    min-height: 200px;
+    resize: vertical;
+}
+
+.contact-info form .form button{
+    margin-top: 10px;
+    padding: 17px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.688rem;
+    font-weight: 700;
+
+}
+
+.contact-info form .form button:hover{
+    background-color: white;
+    border: 1px solid lightgray;
+    color: black;
+    transition: 0.6s;
+}
+
+/* Form End*/
+
+
+/* Latest Article Start*/
+
+.ls-art{
+    padding-left: 1rem;
+}
+
+.latest-article-inner{
+    padding-right: 1rem;
+}
+
+.latest-article-inner ul{
+    list-style: disc;
+    margin: 1rem;
+}
+
+.latest-article-header{
+    font-weight: 700;
+    line-height: 18px;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+    color: #666666;
+    letter-spacing: 1px;
+}
+
+.latest-article-inner ul li{
+    padding-top: 9px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 0.938rem;
+    color: rgb(0, 0, 0);
+}
+
+/* Latest Articel End */
+
+/* Main End */
