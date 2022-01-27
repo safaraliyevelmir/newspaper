@@ -1,10 +1,6 @@
-# NewsPaper Website
+# Newspaper Website
 
-## Templater Linki 
+ 
 
-[Go to the website template at that link](https://the-newspaper.cmsmasters.net/)
-
-
-## 6 May 2021
-
+- [Go to the website template at that link](https://the-newspaper.cmsmasters.net/)
 - 4 Page End (index.html, politics.html, sport.html, technology.html)
